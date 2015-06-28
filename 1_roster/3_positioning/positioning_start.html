@@ -46,20 +46,37 @@
       border-radius: 20px;
       margin-bottom: 10px;
       box-shadow: 2px 2px 5px 0 gray;
+      text-align: left;
     }
 
     .avatar-image {
       border-radius: 50%;
     }
+
+    table {
+      width: 100%
+    }
+
+    td {
+      vertical-align: top;
+    }
   </style>
+
 </head>
 <body>
+<table class= "container">
+
+<tr>
+  <td colspan="3">
   <img src="booth_logo.jpg">
   <h1>BUS36110 <small>Application Development Spring 2015</small></h1>
+  </td>
+</tr>
 
+  <tr>
+    <td>
   <div class="card">
     <h2>Instructors</h2>
-
     <ul>
       <li>
         <img class="avatar-image" src="https://graph.facebook.com/2913578/picture">
@@ -75,10 +92,11 @@
       </li>
     </ul>
   </div>
+  </td>
 
+  <td>
   <div class="card">
     <h2>Students</h2>
-
     <ul>
       <li>Emilia Pollich</li>
       <li>Judson Kunde</li>
@@ -102,8 +120,10 @@
       <li>Dixie Bradtke</li>
     </ul>
   </div>
+</td>
 
 
+<td>
   <div class="card">
     <h2>Resources</h2>
 
@@ -113,5 +133,9 @@
       <li><a href="http://appdev-summer15.github.io/syllabus/" target="_blank">Course syllabus</a></li>
     </ul>
   </div>
+  </td>
+  </tr>
+  
+</table>
 </body>
 </html>
